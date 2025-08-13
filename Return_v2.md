@@ -1,3 +1,5 @@
+```mermaid
+
 %%{init: {'flowchart': {'htmlLabels': true, 'wrap': true, 'nodeSpacing': 30, 'rankSpacing': 40}} }%%
 flowchart LR
     A["Start"] --> B["Inputs:<br/>• Products<br/>• Costs c, F<sub>k</sub>, G<sub>k</sub>, H<sub>k</sub>, s<br/>• Ranges p, r, &tau;"]
