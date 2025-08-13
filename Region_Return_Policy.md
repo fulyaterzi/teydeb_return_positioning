@@ -1,6 +1,6 @@
 ```mermaid
 flowchart TD
-    A["Start"] --> B["Inputs: region, buyer city, price p, costs, courier availability, distances to stores. Assumption: full refund"]
+    A["Start"] --> B["Inputs: region, customer city, price p, costs, courier availability, distances to stores. Assumption: full refund"]
     B --> C["Compute city specific hassle costs: h_store from distance to nearest store; h_online from city factors"]
     C --> D{"Store feasible in this city?"}
     D -- "Yes" --> E["Find nearest store within D_max and set return city"]
