@@ -5,7 +5,7 @@ flowchart TD
   A["Start"] --> B["Load inputs:<br/>customer, region, city<br/>price & refund rules<br/>store/WH locations & capacities<br/>costs (ops, carrier), SLAs, CSAT weights"]
 
   %% ---------- Purchase channel ----------
-  B --> C{"Will the customer buy ONLINE?"}
+  B --> C{"Buy ONLINE?"}
   C -- "Yes" --> PC_ON["purchase_channel = ONLINE"]
   C -- "No"  --> PC_ST["purchase_channel = STORE"]
 
