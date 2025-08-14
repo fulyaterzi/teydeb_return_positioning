@@ -61,9 +61,6 @@ flowchart TD
   • Output = {purchase_channel, policy, return_destination, KPIs/notes}
   "]:::legend
 
-  %% Invisible alignment link
-  C --- L
-  linkStyle 6 stroke-width:0px;fill:none;stroke:none;
 
   classDef legend fill:#f7f7f7,stroke:#bbb,color:#333,font-size:12px;
 
