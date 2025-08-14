@@ -65,9 +65,7 @@ flowchart TD
   • Output = {purchase_channel, policy, return_destination, KPIs/notes}
   "]:::legend
 
-  %% Force vertical alignment by ordering
-  C --> SPACER
-  SPACER --- L
+
 
   classDef legend fill:#f7f7f7,stroke:#bbb,color:#333,font-size:12px;
   classDef invisible fill:none,stroke:none,stroke-width:0px;
