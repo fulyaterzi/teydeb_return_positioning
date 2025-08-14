@@ -54,19 +54,23 @@ flowchart TD
   NR0    --> Z
 
 
-  %% ---------- Legend (keeps boxes short) ----------
+
+  %% --- Invisible spacer for vertical alignment ---
+  SPACER[" "]:::invisible
+
+  %% --- Legend (unconnected) ---
   L["Legend:
-  • 'Evaluate policies' = argmax over {ONLINE_RETURN, STORE_RETURN, NO_RETURN}
-  • Distances & SLA = distance + capacity + SLA checks
-  • Output fields = {purchase_channel, policy, return_destination, KPIs/notes}
+  • 'Evaluate policies' = argmax of {ONLINE_RETURN, STORE_RETURN, NO_RETURN}
+  • 'Distances & SLA' = distance + capacity + SLA checks
+  • Output = {purchase_channel, policy, return_destination, KPIs/notes}
   "]:::legend
 
-  
-  %% Place spacer at middle height of main flow
-  B -.-> SP
+  %% Force vertical alignment by ordering
+  FLOW --> SPACER
+  SPACER --- L
 
   classDef legend fill:#f7f7f7,stroke:#bbb,color:#333,font-size:12px;
-  classDef invisible fill:none,stroke:none;
+  classDef invisible fill:none,stroke:none,stroke-width:0px;
 
 
 
