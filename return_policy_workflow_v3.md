@@ -66,7 +66,7 @@ flowchart TD
   "]:::legend
 
   %% Force vertical alignment by ordering
-  FLOW --> SPACER
+  C --> SPACER
   SPACER --- L
 
   classDef legend fill:#f7f7f7,stroke:#bbb,color:#333,font-size:12px;
