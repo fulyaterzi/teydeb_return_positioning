@@ -60,6 +60,6 @@ flowchart TD
   • Output fields = {purchase_channel, policy, return_destination, KPIs/notes}
   "]:::legend
 
-  A --- L
+  
 
   classDef legend fill:#f7f7f7,stroke:#bbb,color:#333,font-size:12px;
