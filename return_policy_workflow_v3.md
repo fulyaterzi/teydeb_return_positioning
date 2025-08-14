@@ -61,5 +61,9 @@ flowchart TD
   "]:::legend
 
   
+  %% Place spacer at middle height of main flow
+  B -.-> SP
 
   classDef legend fill:#f7f7f7,stroke:#bbb,color:#333,font-size:12px;
+  classDef invisible fill:none,stroke:none;
+
