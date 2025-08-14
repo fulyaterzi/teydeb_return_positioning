@@ -54,18 +54,16 @@ flowchart TD
   NR0    --> Z
 
 
-  %% Invisible middle spacer
-  MIDDLE[ ]:::invisible
-
-  %% Legend at middle-right
-  MIDDLE --- L["Legend:
-  • 'Evaluate policies' = argmax of {ONLINE_RETURN, STORE_RETURN, NO_RETURN}
-  • 'Distances & SLA' = distance + capacity + SLA checks
-  • Output = {purchase_channel, policy, return_destination, KPIs/notes}
+  %% ---------- Legend (keeps boxes short) ----------
+  L["Legend:
+  • 'Evaluate policies' = argmax over {ONLINE_RETURN, STORE_RETURN, NO_RETURN}
+  • Distances & SLA = distance + capacity + SLA checks
+  • Output fields = {purchase_channel, policy, return_destination, KPIs/notes}
   "]:::legend
 
-  %% Position spacer vertically near the middle of FLOW
-  B --> MIDDLE
+  
+  %% Place spacer at middle height of main flow
+  B -.-> SP
 
   classDef legend fill:#f7f7f7,stroke:#bbb,color:#333,font-size:12px;
   classDef invisible fill:none,stroke:none;
