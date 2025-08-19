@@ -6,20 +6,20 @@ flowchart TD
 
   %% --- T = sonsuz (RO domine) ---
   C -->|"Hayır (sonsuz)"| D{r >= h ?}
-  D -->|"Evet"|  RS1[MOD = RS]
-  D -->|"Hayır"| NR1[MOD = NR]
+  D -->|"Evet"|  RS1["MOD = RS"]
+  D -->|"Hayır"| NR1["MOD = NR"]
 
   %% --- T sonlu ---
   C -->|"Evet"| E{r >= T ?}
   E -->|"Evet"| F{h >= T ?}
-  F -->|"Evet"|  RO[MOD = RO]
-  F -->|"Hayır"| RS2[MOD = RS]
+  F -->|"Evet"|  RO["MOD = RO"]
+  F -->|"Hayır"| RS2["MOD = RS"]
 
   E -->|"Hayır"| G{h >= T ?}
-  G -->|"Evet"|  NR2[MOD = NR]
+  G -->|"Evet"|  NR2["MOD = NR"]
   G -->|"Hayır"| H{r >= h ?}
-  H -->|"Evet"|  RS3[MOD = RS]
-  H -->|"Hayır"| NR3[MOD = NR]
+  H -->|"Evet"|  RS3["MOD = RS"]
+  H -->|"Hayır"| NR3["MOD = NR"]
 
   %% --- Kanal bazlı politika eşleme ---
   subgraph EŞLEME
