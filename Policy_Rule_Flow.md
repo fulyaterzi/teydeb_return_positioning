@@ -33,11 +33,7 @@ flowchart TD
     O --> P
     P["Kanal esleme: Online -> BORO/BORS/BONR ; Store -> BSRO/BSRS/BSNR"]
 
-    %% --- Scaled brackets ve override ---
-    P --> Q["Scaled brackets:  m_x = max(0, m - theta*c_carr);  val_RO = exp(r*theta*lambda)*m_x;  val_RS = exp((r-h)*theta*lambda)*m;  val_NR = m;  kanala gore argmax sec"]
-    Q --> R{Argmax != mapped?}
-    R -- No  --> S[Sonuc: mapped policy]
-    R -- Yes --> T[Sonuc: argmax policy]
+   
 
 
 
