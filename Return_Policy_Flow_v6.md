@@ -11,7 +11,7 @@ flowchart TD
       Eğer &theta; · c<span style='vertical-align:sub; font-size:85%'>carr</span> &ge; m ise T = <span style='font-size:28px'>&infin;</span>;
   </div>"]
 
-  B --> C["<div style='padding:6px'>T = <span style='font-size:28px'>&infin;</span>; ?</div>"]
+  B --> C["<div style='padding:6px'>T = <span style='font-size:28px'>&infin</span> ?</div>"]
 
   %% --- T = ∞ (RO domine) ---
   C -- Evet --> D{r >= h ?}
