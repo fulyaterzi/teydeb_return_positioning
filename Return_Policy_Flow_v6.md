@@ -43,7 +43,7 @@ flowchart TD
 
     I --> STXT["<div style='padding:4px'>Mağaza</div>"]
     STXT --> JS["<div style='width:340px; text-align:left; padding:6px'>
-      <b>Karar<b>: MOD=RO &rarr; BSRO,<br/>
+      <b>Karar:<b> MOD=RO &rarr; BSRO,<br/>
       MOD=RS &rarr; BSRS, MOD=NR &rarr; BSNR
     </div>"]
   end
