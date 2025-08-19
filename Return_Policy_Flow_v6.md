@@ -1,13 +1,13 @@
 ```mermaid
 %%{init: {'flowchart': {'htmlLabels': true}} }%%
 flowchart TD
-  A["<div style='width:320px; text-align:middle; padding:5px'>
+  A["<div style='width:320px; text-align:middle; padding:3px'>
       <b>Başlangıç / Girdiler</b><br/>
       satış kanalı, <b>m = (p - c)</b>, r, h, &theta;, &lambda;, c<span style='vertical-align:sub; font-size:95%'>carr</span>
   </div>"]
-    --> B["<div style='width:320px; text-align:middle; padding:5px'>
+    --> B["<div style='width:320px; text-align:middle; padding:3px'>
       <b>Eşiği hesapla</b><br/>
-      T = -ln(1 - (&theta; · c<span style='vertical-align:sub; font-size:85%'>carr</span>)/m) / (&theta; · &lambda;)<br/>
+      T = -ln(1 - (&theta; · c<span style='vertical-align:sub; font-size:95%'>carr</span>)/m) / (&theta; · &lambda;)<br/>
       Eğer &theta; · c<span style='vertical-align:sub; font-size:95%'>carr</span> &ge; m ise T = <span style='font-size:28px'>&infin;</span>;
   </div>"]
 
