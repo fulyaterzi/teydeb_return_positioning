@@ -8,7 +8,7 @@ flowchart TD
     --> B["<div style='width:320px; text-align:middle; padding:5px'>
       <b>Eşiği hesapla</b><br/>
       T = -ln(1 - (&theta; · c<span style='vertical-align:sub; font-size:85%'>carr</span>)/m) / (&theta; · &lambda;)<br/>
-      Eğer &theta; · c<span style='vertical-align:sub; font-size:85%'>carr</span> &ge; m ise T = &infin;
+      Eğer &theta; · c<span style='vertical-align:sub; font-size:85%'>carr</span> &ge; m ise T = <span style='font-size:18px'>&infin;</span>;
   </div>"]
 
   B --> C["<div style='padding:6px'>T = &infin; ?</div>"]
