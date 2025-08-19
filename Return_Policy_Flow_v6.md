@@ -7,7 +7,7 @@ flowchart TD
   </div>"]
     --> B["<div style='width:320px; text-align:middle; padding:5px'>
       <b>Eşiği hesapla</b><br/>
-      T = -ln(1 - (&theta; · c<sub>carr</sub>)/m) / (&theta; · &lambda;)<br/>
+      T = -ln(1 - (&theta; · c<span style='vertical-align:sub; font-size:85%'>carr</span>)/m) / (&theta; · &lambda;)<br/>
       Eğer &theta; · c<sub>carr</sub> &ge; m ise T = &infin;
   </div>"]
 
