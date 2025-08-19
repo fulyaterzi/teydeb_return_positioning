@@ -1,7 +1,7 @@
 ```mermaid
 %%{init: {'flowchart': {'htmlLabels': true}} }%%
 flowchart TD
-  A["<div style='width:300px; text-align:middle; padding:5px'>
+  A["<div style='width:320px; text-align:middle; padding:5px'>
       <b>Başlangıç / Girdiler</b><br/>
       satış kanalı, <b>m = (p - c)</b>, r, h, &theta;, &lambda;, c<span style='vertical-align:sub; font-size:85%'>carr</span>
   </div>"]
