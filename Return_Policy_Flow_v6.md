@@ -3,12 +3,12 @@
 flowchart TD
   A["<div style='width:320px; text-align:middle; padding:5px'>
       <b>Başlangıç / Girdiler</b><br/>
-      satış kanalı, <b>m = (p - c)</b>, r, h, &theta;, &lambda;, c<span style='vertical-align:sub; font-size:85%'>carr</span>
+      satış kanalı, <b>m = (p - c)</b>, r, h, &theta;, &lambda;, c<span style='vertical-align:sub; font-size:95%'>carr</span>
   </div>"]
     --> B["<div style='width:320px; text-align:middle; padding:5px'>
       <b>Eşiği hesapla</b><br/>
       T = -ln(1 - (&theta; · c<span style='vertical-align:sub; font-size:85%'>carr</span>)/m) / (&theta; · &lambda;)<br/>
-      Eğer &theta; · c<span style='vertical-align:sub; font-size:85%'>carr</span> &ge; m ise T = <span style='font-size:28px'>&infin;</span>;
+      Eğer &theta; · c<span style='vertical-align:sub; font-size:95%'>carr</span> &ge; m ise T = <span style='font-size:28px'>&infin;</span>;
   </div>"]
 
   B --> C["<div style='padding:6px'>T = <span style='font-size:28px'>&infin;</span> ?</div>"]
