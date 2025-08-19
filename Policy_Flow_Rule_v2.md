@@ -6,27 +6,27 @@ flowchart TD
 
   %% --- T = sonsuz (RO domine) ---
   C -->|"Hayır (sonsuz)"| D{r >= h ?}
-  D -->|Evet|  RS1[MOD = RS]
-  D -->|Hayır| NR1[MOD = NR]
+  D -->|"Evet"|  RS1[MOD = RS]
+  D -->|"Hayır"| NR1[MOD = NR]
 
   %% --- T sonlu ---
-  C -->|Evet| E{r >= T ?}
-  E -->|Evet| F{h >= T ?}
-  F -->|Evet|  RO[MOD = RO]
-  F -->|Hayır| RS2[MOD = RS]
+  C -->|"Evet"| E{r >= T ?}
+  E -->|"Evet"| F{h >= T ?}
+  F -->|"Evet"|  RO[MOD = RO]
+  F -->|"Hayır"| RS2[MOD = RS]
 
-  E -->|Hayır| G{h >= T ?}
-  G -->|Evet|  NR2[MOD = NR]
-  G -->|Hayır| H{r >= h ?}
-  H -->|Evet|  RS3[MOD = RS]
-  H -->|Hayır| NR3[MOD = NR]
+  E -->|"Hayır"| G{h >= T ?}
+  G -->|"Evet"|  NR2[MOD = NR]
+  G -->|"Hayır"| H{r >= h ?}
+  H -->|"Evet"|  RS3[MOD = RS]
+  H -->|"Hayır"| NR3[MOD = NR]
 
   %% --- Kanal bazlı politika eşleme ---
   subgraph EŞLEME
     direction TB
     I{Satış kanalı?}
-    I -->|Online| JO[Politika: MOD=RO->BORO, MOD=RS->BORS, MOD=NR->BONR]
-    I -->|Mağaza| JS[Politika: MOD=RO->BSRO, MOD=RS->BSRS, MOD=NR->BSNR]
+    I -->|"Online"| JO[Politika: MOD=RO->BORO, MOD=RS->BORS, MOD=NR->BONR]
+    I -->|"Mağaza"| JS[Politika: MOD=RO->BSRO, MOD=RS->BSRS, MOD=NR->BSNR]
   end
 
   RS1 --> I
