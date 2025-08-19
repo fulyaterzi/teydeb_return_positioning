@@ -1,7 +1,7 @@
 ```mermaid
 %%{init: {'flowchart': {'htmlLabels': true}} }%%
 flowchart TD
-  A[Baslangic / Girdiler: kanal, m, r, h, theta, lambda, c_carr] --> B[T yi hesapla; eger theta*c_carr >= m ise T sonsuz]
+  A[Baslangic / Girdiler: satis kanali, m, r, h, theta, lambda, c_carr] --> B[T yi hesapla; eger theta*c_carr >= m ise T sonsuz]
   B --> C{T sonlu mu?}
 
   %% --- T = sonsuz (RO domine) ---
