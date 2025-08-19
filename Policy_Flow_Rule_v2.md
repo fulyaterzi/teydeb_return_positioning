@@ -5,7 +5,7 @@ flowchart TD
   B --> C{T sonlu mu?}
 
   %% --- T = sonsuz (RO domine) ---
-  C -->|Hayır (sonsuz)| D{r >= h ?}
+  C -->|"Hayır (sonsuz)"| D{r >= h ?}
   D -->|Evet|  RS1[MOD = RS]
   D -->|Hayır| NR1[MOD = NR]
 
