@@ -37,13 +37,13 @@ flowchart TD
 
     I --> OTXT["<div style='padding:4px'>Online</div>"]
     OTXT --> JO["<div style='width:340px; text-align:left; padding:6px'>
-      Politika: MOD=RO &rarr; BORO,<br/>
+      Karar: MOD=RO &rarr; BORO,<br/>
       MOD=RS &rarr; BORS, MOD=NR &rarr; BONR
     </div>"]
 
     I --> STXT["<div style='padding:4px'>Mağaza</div>"]
     STXT --> JS["<div style='width:340px; text-align:left; padding:6px'>
-      Politika: MOD=RO &rarr; BSRO,<br/>
+      Karar: MOD=RO &rarr; BSRO,<br/>
       MOD=RS &rarr; BSRS, MOD=NR &rarr; BSNR
     </div>"]
   end
