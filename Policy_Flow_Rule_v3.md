@@ -27,12 +27,12 @@ flowchart TD
     I{Satis kanali?}
 
     I --> OTXT[Online]
-    OTXT --> JO["<div style='width:250px; text-align:left; padding:6px'>
+    OTXT --> JO["<div style='width:250px; text-align:middle; padding:6px'>
     Politika: MOD=RO-&gt;BORO,<br/>MOD=RS-&gt;BORS, MOD=NR-&gt;BONR
     </div>"]
 
     I --> STXT[Magaza]
-    STXT --> JS["<div style='width:250px; text-align:left; padding:6px'>
+    STXT --> JS["<div style='width:250px; text-align:middle; padding:6px'>
     Politika: MOD=RO-&gt;BSRO,<br/>MOD=RS-&gt;BSRS, MOD=NR-&gt;BSNR
     </div>"]
   end
