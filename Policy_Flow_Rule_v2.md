@@ -1,7 +1,7 @@
 ```mermaid
 flowchart TD
   A[Başlangıç / Girdiler: kanal, m, r, h, theta, lambda, c_carr]
-    --> B[Threshold hesapla: T = -ln(1 - theta*c_carr/m)/(theta*lambda); eğer theta*c_carr >= m ise T = sonsuz]
+    --> B["Threshold hesapla: T = -ln(1 - theta*c_carr/m)/(theta*lambda); eğer theta*c_carr >= m ise T = sonsuz"]
   B --> C{T sonlu mu?}
 
   %% --- T = sonsuz (RO domine) ---
